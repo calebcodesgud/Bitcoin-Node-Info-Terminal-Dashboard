@@ -1,7 +1,6 @@
 #!/bin/zsh
 
-# ─── Relaunch inside Konsole if started from desktop shortcut ────────────────
-
+# Maximize screen
 sleep 0.5
 if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
   SCRIPT=$(mktemp --suffix=.js)
