@@ -160,7 +160,7 @@ for row in grid:
     right.append(out)
 
 # ── Print side by side ────────────────────────────────────────────────────────
-LEFT_WIDTH = 90
+LEFT_WIDTH = 78
 GAP = "  "
 rows = max(len(left), len(right))
 left  += [''] * (rows - len(left))
