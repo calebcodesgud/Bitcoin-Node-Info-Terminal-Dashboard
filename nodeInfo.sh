@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Maximize screen
-sleep 0.5
+sleep 0.25
 if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
   SCRIPT=$(mktemp --suffix=.js)
   echo "workspace.activeWindow.setMaximize(true, true)" > "$SCRIPT"
