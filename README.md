@@ -79,5 +79,6 @@ ADDRESS   CLIENT   TYPE                PING   BLOCKS   LOCATION
 ## Notes
 
 - The geo lookup batches all peer IPs in a single POST request to `ip-api.com/batch`. Private/reserved IPs (Tor, I2P, etc.) will return no location and are omitted from the map.
+
 - The map is based on a 1998 ASCII art world map by Matthew Thomas and is freely usable as long as the attribution line is preserved.
 - The script fetches network info first and renders an initial view before geo lookups complete, then re-renders the full layout once peer locations are available.
